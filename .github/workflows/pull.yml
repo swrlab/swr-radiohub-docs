@@ -10,7 +10,7 @@ jobs:
   run-npm:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/setup-node@v2.0.0
+    - uses: actions/setup-node@v2.2.0
       with:
         node-version: 12
 
